@@ -10,7 +10,7 @@ st.set_page_config(
     layout="wide"
 )
 
-image = Image.open("image/sheader2.jpg")
+image = Image.open("image/header2.jpg")
 st.image(image)
 st.subheader("")
 st.title("학생 답안 제출 양식")
