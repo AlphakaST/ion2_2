@@ -4,10 +4,10 @@ from PIL import Image
 
 st.set_page_config(
         page_title="이온을 확인할 수 있는 방법이 있을까?",
-        page_icon="./alpaca.jpg",
+        page_icon="./image/alpaca.jpg",
         layout="wide"
 )
-image = Image.open("header2.jpg")
+image = Image.open("image/header2.jpg")
 st.image(image)
 st.subheader("")
 st.title(":bookmark_tabs: 프로젝트명: 이온 확인 프로젝트")
